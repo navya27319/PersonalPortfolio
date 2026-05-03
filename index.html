@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAVYA PORTFOLIO</title>
+    <link href="link rel=" preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align -items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+
+            color: rgb(142, 142, 224);
+            font-sixe: 1.04rem;
+        }
+
+        main hr {
+            border: 0;
+            background: #5854a0;
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-self: center;
+            margin: 130px 0;
+        }
+
+        .firstsection>div {
+            width: 30%;
+        }
+
+        .leftsection {
+            font-size: 3rem;
+
+        }
+
+        .leftsection .buttons {
+            padding: 50px 0;
+        }
+
+        .leftsection .btn {
+            padding: 12px;
+            color: #1e2167;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+
+        }
+
+        .rightsection img {
+            width: 80%;
+            margin: 50px 0;
+        }
+
+        .purple {
+            color: rgb(165, 100, 226);
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        #element {
+            color: rgb(154, 102, 202)
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondsection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondsection .box {
+            background-color: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .btn {
+            padding: 12px 20px;
+            background-color: white;
+            /* full white background */
+            color: black;
+            /* black text */
+            border: none;
+            /* remove outline */
+            border-radius: 6px;
+            font-size: 18px;
+            cursor: pointer;
+            font-weight: 500;
+        }
+
+        .btn:hover {
+            background-color: #e6e6e6;
+            /* light grey on hover */
+        }
+
+        .secondsection .box {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            gap: 50px;
+            width: 80vw;
+            margin: 80px auto;
+        }
+
+        .secondsection .vertical {
+            height: 120px;
+            width: 2px;
+            background-color: white;
+            margin: 0 80px;
+            position: relative;
+
+        }
+
+        .image-top {
+            width: 23px;
+            position: absolute;
+            top: -25px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        footer {
+            background-color: #0e0e1a;
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 223px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+
+        title {
+            position: relative;
+            top: 100px;
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+            width: 150px;
+        }
+
+        .vertical-title {
+            position: absolute;
+            top: 130px;
+            /* pushes text below the vertical line */
+            left: 50%;
+            transform: translateX(-50%);
+            width: 150px;
+            text-align: center;
+        }
+
+        .vertical-desc {}
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Navya Portfolio</div>
+            <div class="right">
+
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Project</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="firstsection">
+            <div class="leftsection">
+                Hi,My name is <span class="purple">Navya</span>
+
+                <div>and I am a passionate</div>
+
+                <span id="element"></span>
+                <div class="button">
+                    <a href="https://www.linkedin.com/in/navya-sharma-7b6a42310" target="_blank" class="btn">Visit
+                        Linkedin</a>
+                    <a href="https://github.com/navya27319" target="_blank" class="btn">Visit GitHub</a>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img
+                    src="file:///C:/Users/Dell/Downloads/pngtree-web-development-concept-flat-design-png-image_2303316.jpg"></img>
+            </div>
+
+        </section>
+        <hr>
+       <section id="services" class="secondsection">
+            <span class="text-gray"> What I have done so far</span>
+            <h1>Work Experience</h1>
+    
+
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="file:///C:/Users/Dell/Downloads/download.jpeg">
+                    <div class="vertical-title"> Web Development Learner (2024–Present)</div>
+
+                </div>
+
+
+
+                <div class="vertical">
+                    <img class="image-top" src="file:///C:/Users/Dell/Downloads/download.jpeg">
+                    <div class="vertical-title">Full Stack Development (2025–Present)</div>
+                </div>
+
+
+
+
+                <div class="vertical">
+                    <img class="image-top" src="file:///C:/Users/Dell/Downloads/download.jpeg">
+                    <div class="vertical-title">Weather App Project (2025)</div>
+                </div>
+
+
+                <div class="vertical">
+                    <img class="image-top" src="file:///C:/Users/Dell/Downloads/download.jpeg">
+                    <div class="vertical-title">Maternal Health Monitoring System (2025)</div>
+                </div>
+
+
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Navya's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                  <section id="service" class="thirdsection">
+                <ul>
+                    <li>Email id-navyasharma252007@gmail.com</li>
+                    <li>Contact me-8851533102</li>
+                    <li>Service-All my professional details</li>
+
+                </ul>
+
+            </div>
+
+        </div>
+        <div class="footer-rights">
+            Copyright&#169; Navyaportfolio.com|All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Full stack developer', 'Node.js'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
